@@ -1,7 +1,16 @@
 import { useState, useEffect } from "react";
-import { Container, Typography, Button, Box } from "@mui/material";
+import {
+  Container,
+  Typography,
+  Button,
+  Box,
+  Card,
+  CardContent,
+  CardActions,
+  CssBaseline,
+} from "@mui/material";
 import Quiz from "./components/Quiz";
-
+import "./App.css";
 const App = () => {
   const [topics, setTopics] = useState([]);
   const [selectedTopic, setSelectedTopic] = useState(null);
@@ -22,19 +31,37 @@ const App = () => {
 
   return (
     <Container maxWidth="sm">
-      <Typography variant="h1" component="h1" textAlign="center" gutterBottom>
-        Quiz App
-      </Typography>
+      <Box mt={3}>
+        <Typography variant="h2" align="center" gutterBottom>
+          Welcome to the Quiz App
+        </Typography>
+        <Typography variant="body1" align="center" gutterBottom>
+          Test your knowledge with our quizzes! Each quiz has 10 questions worth
+          10 marks in total.
+        </Typography>
+      </Box>
       {!selectedTopic ? (
-        <Box sx={{ display: "grid", gridGap: "1rem" }}>
+        <Box mt={3} sx={{ display: "grid", gridGap: "1rem" }}>
           {topics.map((topic, index) => (
-            <Button
-              key={index}
-              variant="contained"
-              onClick={() => handleTopicSelection(topic)}
-            >
-              {topic.name}
-            </Button>
+            <Card key={index}>
+              <CardContent>
+                <Typography variant="h5" component="h2">
+                  {topic.name}
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  {topic.description}
+                </Typography>
+              </CardContent>
+              <CardActions sx={{ display: "flex", justifyContent: "center" }}>
+                <Button
+                  size="small"
+                  variant="contained"
+                  onClick={() => handleTopicSelection(topic)}
+                >
+                  Start Quiz
+                </Button>
+              </CardActions>
+            </Card>
           ))}
         </Box>
       ) : (

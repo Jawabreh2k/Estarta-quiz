@@ -44,7 +44,13 @@ const Quiz = ({ topic, onTopicDeselection }) => {
     <Box>
       {!showResults && (
         <>
-          <Typography variant="h2" component="h2" gutterBottom>
+          <Typography
+            variant="h4"
+            gutterBottom
+            sx={{ height: "3rem", paddingBottom: "5rem" }}
+            align="center"
+            justifyContent="center"
+          >
             {topic.questions[currentQuestionIndex].question}
           </Typography>
           <LinearProgress variant="determinate" value={progressPercentage} />

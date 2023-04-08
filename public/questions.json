@@ -82,6 +82,66 @@
           "question": "Which element has the atomic number 1?",
           "options": ["Hydrogen", "Helium", "Lithium", "Beryllium"],
           "correctAnswer": 0
+        },
+        {
+          "question": "What type of energy is stored in a battery?",
+          "options": [
+            "Potential energy",
+            "Kinetic energy",
+            "Heat energy",
+            "Chemical energy"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "What causes the tides on Earth?",
+          "options": [
+            "The gravitational pull of the moon",
+            "The rotation of the Earth",
+            "The heat of the sun",
+            "The movement of the oceans"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Which gas makes up the majority of the Earth's atmosphere?",
+          "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Methane"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the process by which plants convert sunlight into energy?",
+          "options": [
+            "Photosynthesis",
+            "Respiration",
+            "Transpiration",
+            "Hydration"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "What is the unit of measurement for electric current?",
+          "options": ["Volt", "Watt", "Ampere", "Ohm"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the name of the force that holds atoms together?",
+          "options": [
+            "Gravity",
+            "Electromagnetism",
+            "Strong nuclear force",
+            "Weak nuclear force"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the name of the largest ocean on Earth?",
+          "options": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean",
+            "Pacific Ocean"
+          ],
+          "correctAnswer": 3
         }
       ]
     },
