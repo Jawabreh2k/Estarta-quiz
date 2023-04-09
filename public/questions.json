@@ -2,6 +2,7 @@
   "topics": [
     {
       "name": "Math",
+      "timeLimit": 10,
       "questions": [
         {
           "question": "What is 2 + 5?",
@@ -67,6 +68,7 @@
     },
     {
       "name": "Science",
+      "timeLimit": 300,
       "questions": [
         {
           "question": "What is the chemical symbol for water?",
@@ -147,6 +149,7 @@
     },
     {
       "name": "Geography",
+      "timeLimit": 300,
       "questions": [
         {
           "question": "What is the capital of Japan?",
@@ -212,6 +215,7 @@
     },
     {
       "name": "History",
+      "timeLimit": 300,
       "questions": [
         {
           "question": "Which country was the first to send a man to space?",
@@ -292,6 +296,7 @@
     },
     {
       "name": "Literature",
+      "timeLimit": 300,
       "questions": [
         {
           "question": "Who is the author of '1984'?",
