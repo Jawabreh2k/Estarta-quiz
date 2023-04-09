@@ -2,7 +2,7 @@
   "topics": [
     {
       "name": "Math",
-      "timeLimit": 10,
+      "timeLimit": 300,
       "questions": [
         {
           "question": "What is 2 + 5?",
