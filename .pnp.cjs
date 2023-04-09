@@ -39,6 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:4ad77a3745fde4eef03c3d7d2cf9f283eded2a34e07a3c1b15e8cf94e55cbf0854930e6c29c40bf09258805561f9a7a58808e7273abe2f8ea0571eb853f56cf0#npm:18.2.0"],\
             ["react-redux", "virtual:4ad77a3745fde4eef03c3d7d2cf9f283eded2a34e07a3c1b15e8cf94e55cbf0854930e6c29c40bf09258805561f9a7a58808e7273abe2f8ea0571eb853f56cf0#npm:8.0.5"],\
             ["redux", "npm:4.2.1"],\
+            ["redux-thunk", "virtual:4ad77a3745fde4eef03c3d7d2cf9f283eded2a34e07a3c1b15e8cf94e55cbf0854930e6c29c40bf09258805561f9a7a58808e7273abe2f8ea0571eb853f56cf0#npm:2.4.2"],\
             ["vite", "virtual:4ad77a3745fde4eef03c3d7d2cf9f283eded2a34e07a3c1b15e8cf94e55cbf0854930e6c29c40bf09258805561f9a7a58808e7273abe2f8ea0571eb853f56cf0#npm:4.2.1"]\
           ],\
           "linkType": "SOFT"\
@@ -1126,7 +1127,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-redux", "virtual:4ad77a3745fde4eef03c3d7d2cf9f283eded2a34e07a3c1b15e8cf94e55cbf0854930e6c29c40bf09258805561f9a7a58808e7273abe2f8ea0571eb853f56cf0#npm:8.0.5"],\
             ["redux", "npm:4.2.1"],\
-            ["redux-thunk", "virtual:a8804bb6a66511c37a3c5650358b5015e535270e169ca87a3af9e4f18d6e6760fdc8c1c0850be120c0d51034126f5018ffd3e7abe42109fe4457748cf92e4f49#npm:2.4.2"],\
+            ["redux-thunk", "virtual:4ad77a3745fde4eef03c3d7d2cf9f283eded2a34e07a3c1b15e8cf94e55cbf0854930e6c29c40bf09258805561f9a7a58808e7273abe2f8ea0571eb853f56cf0#npm:2.4.2"],\
             ["reselect", "npm:4.1.7"]\
           ],\
           "packagePeers": [\
@@ -2556,6 +2557,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:4ad77a3745fde4eef03c3d7d2cf9f283eded2a34e07a3c1b15e8cf94e55cbf0854930e6c29c40bf09258805561f9a7a58808e7273abe2f8ea0571eb853f56cf0#npm:18.2.0"],\
             ["react-redux", "virtual:4ad77a3745fde4eef03c3d7d2cf9f283eded2a34e07a3c1b15e8cf94e55cbf0854930e6c29c40bf09258805561f9a7a58808e7273abe2f8ea0571eb853f56cf0#npm:8.0.5"],\
             ["redux", "npm:4.2.1"],\
+            ["redux-thunk", "virtual:4ad77a3745fde4eef03c3d7d2cf9f283eded2a34e07a3c1b15e8cf94e55cbf0854930e6c29c40bf09258805561f9a7a58808e7273abe2f8ea0571eb853f56cf0#npm:2.4.2"],\
             ["vite", "virtual:4ad77a3745fde4eef03c3d7d2cf9f283eded2a34e07a3c1b15e8cf94e55cbf0854930e6c29c40bf09258805561f9a7a58808e7273abe2f8ea0571eb853f56cf0#npm:4.2.1"]\
           ],\
           "linkType": "SOFT"\
@@ -2686,10 +2688,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:a8804bb6a66511c37a3c5650358b5015e535270e169ca87a3af9e4f18d6e6760fdc8c1c0850be120c0d51034126f5018ffd3e7abe42109fe4457748cf92e4f49#npm:2.4.2", {\
-          "packageLocation": "./.yarn/__virtual__/redux-thunk-virtual-5df6eb4dd4/0/cache/redux-thunk-npm-2.4.2-3acdaaf7b0-c7f757f6c3.zip/node_modules/redux-thunk/",\
+        ["virtual:4ad77a3745fde4eef03c3d7d2cf9f283eded2a34e07a3c1b15e8cf94e55cbf0854930e6c29c40bf09258805561f9a7a58808e7273abe2f8ea0571eb853f56cf0#npm:2.4.2", {\
+          "packageLocation": "./.yarn/__virtual__/redux-thunk-virtual-fecc8f0c91/0/cache/redux-thunk-npm-2.4.2-3acdaaf7b0-c7f757f6c3.zip/node_modules/redux-thunk/",\
           "packageDependencies": [\
-            ["redux-thunk", "virtual:a8804bb6a66511c37a3c5650358b5015e535270e169ca87a3af9e4f18d6e6760fdc8c1c0850be120c0d51034126f5018ffd3e7abe42109fe4457748cf92e4f49#npm:2.4.2"],\
+            ["redux-thunk", "virtual:4ad77a3745fde4eef03c3d7d2cf9f283eded2a34e07a3c1b15e8cf94e55cbf0854930e6c29c40bf09258805561f9a7a58808e7273abe2f8ea0571eb853f56cf0#npm:2.4.2"],\
             ["@types/redux", null],\
             ["redux", "npm:4.2.1"]\
           ],\
