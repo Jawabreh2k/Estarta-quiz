@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { incrementScore, resetScore } from "../redux/actions";
+import { incrementScore, resetScore } from "../Redux/actions";
 import {
   Typography,
   Button,
